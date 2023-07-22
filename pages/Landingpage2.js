@@ -3,7 +3,6 @@ import React from 'react';
 const LandingPage2 = () => {
   return (
     <div className="bg-gradient-to-r from-purple-900 via-indigo-800 to-blue-800 text-white min-h-screen">
-      {/* Header */}
       <header className="bg-opacity-80 backdrop-blur-md py-8">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold tracking-wide animate__animated animate__bounceInDown">
@@ -15,7 +14,6 @@ const LandingPage2 = () => {
         </div>
       </header>
 
-      {/* Hero Section */}
       <section className="py-16 animate__animated animate__fadeIn">
         <div className="container mx-auto flex flex-col items-center">
           <h2 className="text-5xl font-bold mb-8 text-center animate__animated animate__bounceIn">
@@ -30,7 +28,6 @@ const LandingPage2 = () => {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="bg-opacity-80 backdrop-blur-md py-16 animate__animated animate__fadeIn">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-12 animate__animated animate__bounceIn">
@@ -69,7 +66,6 @@ const LandingPage2 = () => {
         </div>
       </section>
 
-      {/* Image Section */}
       <section className="py-16 bg-gray-900 animate__animated animate__fadeIn">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-12 text-white animate__animated animate__bounceIn">
@@ -89,7 +85,6 @@ const LandingPage2 = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section className="py-16 animate__animated animate__fadeIn">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 animate__animated animate__bounceIn">Contact Us</h2>
@@ -116,7 +111,6 @@ const LandingPage2 = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-opacity-80 backdrop-blur-md py-6 text-center">
         <p>&copy; {new Date().getFullYear()} Fitness Gym. All rights reserved.</p>
       </footer>
